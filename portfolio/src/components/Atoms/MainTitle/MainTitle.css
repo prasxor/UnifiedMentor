@@ -1,0 +1,62 @@
+.githubSectionTitle {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.mainTitle {
+  font-size: var(--font-size-main-title);
+  font-family: var(--font-third);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-primary);
+  text-align: left;
+  /* margin-bottom: 20px; */
+  /* border: 1px solid red; */
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.maintitlePara{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-third-title);
+    font-weight: var(--font-weight-normal);
+    line-height: 24px;
+    color: var(--color-primary);
+    text-align: left !important;
+    width: 70%;
+    margin: 0;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .mainTitle{
+    font-size: 40px;
+    font-weight: var(--font-weight-semibold);
+  }
+  .maintitlePara{
+    font-size: 22px !important;
+    font-weight: var(--font-weight-normal);
+    width: 100%;
+    opacity: 80%;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .githubSectionTitle{
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .mainTitle{
+    font-size: 30px;
+    font-weight: var(--font-weight-semibold);
+  }
+  .maintitlePara{
+    font-size: 14px !important;
+    font-weight: var(--font-weight-normal);
+    width: 100%;
+    opacity: 80%;
+    height: auto;
+    /* border: 1px solid yellow; */
+    line-height: 20px;
+  }
+}

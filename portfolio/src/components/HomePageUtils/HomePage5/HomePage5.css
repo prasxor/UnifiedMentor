@@ -1,0 +1,15 @@
+.HomePage5Container{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .HomePage5Container{
+        height: max-content;
+        /* border: 1px solid red; */
+    }
+}
+
+@media (max-width: 768px) {
+ 
+}

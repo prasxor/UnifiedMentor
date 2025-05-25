@@ -1,0 +1,20 @@
+.contactContainer{
+    height: auto;
+    width: 100%;
+    /* margin: 5% 0; */
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .contactContainer{
+        width: 100vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactContainer{
+        width: 100vw;
+        margin-top: 20%;
+    }
+}

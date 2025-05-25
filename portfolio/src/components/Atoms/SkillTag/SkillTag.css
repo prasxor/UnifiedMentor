@@ -1,0 +1,84 @@
+.skillTagContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  border-radius: 12px;
+  border: 0.5px solid var(--color-primary);
+  height: 38px;
+  width: max-content;
+  padding: 0 11px;
+  row-gap: 15px;
+  /* margin-bottom: 10px; */
+  /* background-color: var(--color-tag-color); */
+  transition: all var(---transition-medium);
+}
+
+.SkillTagLeftIcon,
+.SkillTagRightText {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.SkillTagLeftIcon img {
+  height: 20px;
+  width: auto;
+}
+
+
+
+.SkillTagRightText {
+  width: max-content;
+  margin-left: 10px;
+}
+
+.SkillTagRightText p {
+  font: var(--font-primary);
+  font-weight: var(--font-weight-extrabold);
+  font-size: var(--font-size-third-title);
+  color: var(--color-primary);
+  width: max-content;
+  /* margin-left: 5px; */
+}
+
+.SkillTagRightText a {
+  font: var(--font-primary);
+  font-weight: var(--font-weight-extrabold);
+  font-size: var(--font-size-third-title);
+  color: var(--color-primary);
+  width: max-content;
+  text-decoration: none;
+}
+
+.skillTagContainer:hover {
+  cursor: pointer;
+  color: var(--light-color-primary);
+  background-color: var(--color-primary);
+}
+
+.skillTagContainer:hover {
+  filter: drop-shadow(0 0 2em #646cffde);
+}
+.skillTagContainer.react:hover {
+  filter: drop-shadow(2em 0 2em #61dafbe8);
+}
+
+.skillTagContainer:hover a {
+  color: var(--color-background-dark);
+  /* background-color: #ffffffb6; */
+}
+
+.skillTagContainer:hover img {
+  filter: brightness(100%) saturate(0%) invert(100%) sepia(0%) saturate(500%)
+    hue-rotate(180deg);
+}
+
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {}

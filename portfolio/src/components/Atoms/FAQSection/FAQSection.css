@@ -1,0 +1,110 @@
+.FAQSectionContainer {
+  height: max-content;
+  width: 100%;
+  /* border: 1px solid yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 10%;
+}
+
+.FAQSectionLeft,
+.FAQSectionRight {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.FAQSectionLeft {
+  width: 30%;
+  height: 100%;
+}
+
+.FAQSectionLeft h2 {
+  font-family: var(--font-fourth);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+  font-size: 50px;
+  /* border: 1px solid white; */
+  padding-right: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  line-height: 60px;
+}
+
+.FAQSectionRight {
+  width: 60%;
+  flex-direction: column;
+  gap: 19px;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .FAQSectionContainer {
+    flex-direction: column;
+    padding: 0 2%;
+    width: 100vw;
+    margin: 5% 0;
+    height: max-content;
+  }
+
+  .FAQSectionRight {
+    width: 90%;
+    height: max-content;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .FAQSectionLeft {
+    width: 90%;
+    /* border: 1px solid green; */
+    height: 20%;
+  }
+
+  .FAQSectionLeft h2 {
+    font-family: var(--font-third-title);
+    font-weight: var(--font-weight-normal);
+    color: var(--color-primary);
+    font-size: 40px;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .FAQSectionContainer {
+    flex-direction: column;
+    padding: 0 2%;
+    width: 100vw;
+    height: max-content;
+  }
+  .FAQSectionRight {
+    width: 90%;
+    height: max-content;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+
+  .FAQSectionLeft {
+    width: 90%;
+    /* border: 1px solid green; */
+    height: 20%;
+  }
+
+  .FAQSectionLeft h2 {
+    font-family: var(--font-third-title);
+    font-weight: var(--font-weight-normal);
+    color: var(--color-primary);
+    font-size: 23px;
+    text-align: center;
+    padding: 0;
+  }
+}

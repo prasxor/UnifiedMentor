@@ -1,0 +1,211 @@
+/* 
+Define the default theme (dark mode)
+:root {
+  --color-primary: #ffffff; 
+  --color-secondary: #b3b3b3; 
+  --color-background: #121212; 
+}
+
+
+html.light {
+  --color-primary: #000000; 
+  --color-secondary: #131111; 
+  --color-background: #f4f4f4; 
+  --color-background-dark: #f4f4f4;
+}
+
+.light .SkillTagLeftIcon img {
+  filter: brightness(0) !important;
+}
+
+.light .skillTagContainer:hover .SkillTagLeftIcon img {
+  filter: brightness(100) !important;
+}
+
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--color-secondary);
+}
+
+
+button {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+
+
+.ToggleMode {
+  width: 50px;
+  height: 50px;
+  background-color: var(--btn-bg);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.toggle-icon {
+  width: 24px;
+  height: 24px;
+}
+
+
+.theme-transition {
+  position: fixed;
+  width: 0;
+  height: 0;
+  background-color: var(--transition-color);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  animation: expandTheme 0.6s ease-out forwards;
+  pointer-events: none;
+}
+
+
+@keyframes expandTheme {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    width: 300vw;
+    height: 300vw;
+    opacity: 1;
+  }
+}
+
+
+:root {
+  --btn-bg: #f4f4f4;
+  --transition-color: #ffffff;
+  --bg-color: #f4f4f4;
+  --text-color: #000000;
+}
+
+[data-theme="dark"] {
+  --btn-bg: #191919;
+  --transition-color: #191919;
+  --bg-color: #191919;
+  --text-color: #ffffff;
+}
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out;
+}
+ */
+
+
+
+:root {
+  --color-primary: #ffffff; /* White text for dark mode */
+  --color-secondary: #b3b3b3; /* Light gray text for dark mode */
+  --color-background: #121212; /* Dark background for dark mode */
+}
+
+/* 🌓 Light Mode Variables */
+html.light {
+  --color-primary: #000000; /* Black text for light mode */
+  --color-secondary: #131111; /* Dark gray text for light mode */
+  --color-background: #f4f4f4; /* Light gray background for light mode */
+  --color-background-dark: #f4f4f4;
+}
+
+.light .SkillTagLeftIcon img {
+  filter: brightness(0) !important;
+}
+
+.light .skillTagContainer:hover .SkillTagLeftIcon img {
+  filter: brightness(100) !important;
+}
+
+/* Apply the CSS variables to global styles */
+body {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--color-secondary);
+}
+
+/* Other styles like buttons, links, etc., can also use the variables */
+button {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+
+/* 🔘 Toggle Button (Keep Original Position) */
+.ToggleMode {
+  width: 50px;
+  height: 50px;
+  background-color: var(--btn-bg);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.toggle-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* 🌊 Ripple Effect */
+.theme-transition {
+  position: fixed;
+  width: 0;
+  height: 0;
+  background-color: var(--transition-color);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  animation: expandTheme 0.6s ease-out forwards;
+  pointer-events: none;
+}
+
+/* 🔄 Expand Animation */
+@keyframes expandTheme {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    width: 300vw;
+    height: 300vw;
+    opacity: 1;
+  }
+}
+

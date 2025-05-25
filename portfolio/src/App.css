@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+:root {
+  /* 🌟 Font Variables */
+  --font-primary: "Inter", sans-serif;
+  --font-secondary : "Poppins", sans-serif;
+  --font-third : 'Roboto', sans-serif;
+  --font-fourth : 'Montserrat', sans-serif;
+  --font-weight-extrabold: 800;
+  --font-weight-semibold: 600; 
+  --font-weight-normal: 500; 
+
+  /* 🎨 Colors */
+  --color-primary: #ffffff; /* White */
+  --color-secondary: #bbbbbb; /* Light Gray */
+  --color-accent: #AAAAAA; /* Accent Color (Orange) */
+  --color-background-dark: #191919; /* Dark Background */
+  --color-border: #BBBBBB; /* Border Color */
+  --color-tag-color: #262626;
+  --color-cards-color : #24242481;
+
+  /* 📏 Spacing */
+
+  --padding-default: 2%;
+  --padding-large: 32px;
+  --padding-small: 8px;
+
+  /* 📝 Typography */
+  --font-size-main-title: 40px;
+  --font-size-secondary-title: 20px;
+  --font-size-third-title: 16px;
+  --font-size-fourth-title : 24px;
+
+  /* 🌓 Light Mode (Optional) */
+  --light-color-primary: #000000; /* Black */
+  --light-color-secondary: #333333; /* Dark Gray */
+  --light-color-background: #f4f4f4; /* Light Gray Background */
+
+  /* 🎬 Transitions */
+  --transition-fast: 0.2s ease-in-out;
+  --transition-medium: 0.4s ease-in-out;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-background-dark);
+  color: var(--color-primary);
+  margin: 0;
+  padding: 0;
+  transition: background-color var(--transition-medium), color var(--transition-medium);
+  overflow-x: hidden;
+}
+
+/* 🌟 Titles */
+h1 {
+  font-size: var(--font-size-main-title);
+  font-weight: var(--font-weight-extrabold);
+}
+
+h2 {
+  font-size: var(--font-size-secondary-title);
+  font-weight: var(--font-weight-semibold);
+}
+
+h3 {
+  font-size: var(--font-size-third-title);
+  color: var(--color-secondary);
+}
+
+/* 🌍 Responsive Adjustments */
+@media (max-width: 1024px) {
+  :root {
+    --padding-default: 5%;
+    --font-size-main-title: 32px;
+    --font-size-secondary-title: 18px;
+    --font-size-third-title: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --padding-default: 3%;
+    --font-size-main-title: 28px;
+    --font-size-secondary-title: 16px;
+    --font-size-third-title: 12px;
+  }
+}
+
+.container {
+  padding-left: var(--padding-default);
+  padding-right: var(--padding-default);
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.light-mode {
+  --color-primary: var(--light-color-primary);
+  --color-secondary: var(--light-color-secondary);
+  --color-background-dark: var(--light-color-background);
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+/* 🔹 Mobile-first approach (default styles for small screens) */
+
+
+
+/* 💻 Laptops & Desktops (769px to 1024px) */
+@media (max-width: 1024px) {
+ .container{
+  /* border: 1px solid rgb(0, 89, 255); */
+  padding: 0 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+}
+
+/* 📱 Tablets & Large Phones (Up to 768px) */
+@media (max-width: 768px) {
+  .container{
+    /* border: 1px solid rgb(0, 195, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+}

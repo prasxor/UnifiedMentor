@@ -1,0 +1,49 @@
+.HomePage4Container{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.HomePage4Cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .HomePage4Container{
+        /* border: 1px solid yellow; */
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .HomePage4Cards{
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap !important;
+        /* border: 1px solid rgb(136, 255, 0); */
+        width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .HomePage4Container{
+        /* border: 1px solid yellow; */
+        width: 100vw;
+        padding: 0 5%;
+    }
+    .HomePage4Cards{
+        flex-direction: column;
+        scale: 1;
+    }
+  }

@@ -1,0 +1,33 @@
+.blog-section {
+    padding: 20px;
+  }
+  
+  .blog-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .blog-cards {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .blog-iframe {
+    flex: 2;
+  }
+  
+  iframe {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .blog-container {
+      flex-direction: column;
+    }
+    .blog-cards,
+    .blog-iframe {
+      max-width: 100%;
+    }
+  }

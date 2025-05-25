@@ -1,0 +1,124 @@
+.ToggleExpandCardContainer {
+  /* border: 1px solid red; */
+  /* height: auto; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid var(--color-tag-color);
+  border-radius: 10px;
+  /* background-color: var(--color-cards-color); */
+  cursor: pointer;
+}
+
+.ToggleExpandCardUpper {
+  /* border: 1px solid yellow; */
+  width: 100%;
+  height: 80px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ToggleExpandCardLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  width: 80%;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.ToggleExpandCardLeft p {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-fourth-title);
+  text-align: left;
+  width: 100%;
+  color: var(--color-primary);
+}
+
+.ToggleExpandCardRight {
+  /* border: 1px solid red; */
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ToggleExpandCardRight img {
+  object-fit: cover;
+  /* border: 1px solid red; */
+  /* height: 50%; */
+  width: 25px;
+}
+
+.ToggleExpandCardLower {
+  height: 100px;
+  padding: 0 20px;
+  /* display: none; */
+}
+
+.ToggleExpandCardLower p {
+  font-size: var(--font-size-third-title);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-normal);
+  line-height: 22px;
+  color: var(--color-secondary);
+  padding-right: 10%;
+}
+
+.ToggleExpandCardRight img {
+  transition: transform 0.3s ease;
+}
+
+.light .ToggleExpandCardRight img {
+  filter: brightness(0);
+}
+
+.rotated {
+  transform: rotate(45deg);
+}
+
+/* Smooth Expand/Collapse Animation */
+.ToggleExpandCardLower {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease-out, opacity 0.3s ease-out;
+}
+
+.ToggleExpandCardLower.open {
+  max-height: max-content; /* Adjust based on content */
+  opacity: 1;
+  width: 100%;
+  padding-bottom: 20px;
+  transition: max-height 0.5s ease-in, opacity 0.3s ease-in;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .ToggleExpandCardLower p {
+    font-size: 20px;
+  }
+  .ToggleExpandCardLower.open{
+    height: max-content;
+  }
+}
+
+@media (max-width: 768px) {
+  .ToggleExpandCardLower p {
+    font-size: 16px;
+  }
+
+  .ToggleExpandCardLeft p {
+    font-size: 20px;
+  }
+
+  .ToggleExpandCardLower.open{
+    height: max-content;
+  }
+}

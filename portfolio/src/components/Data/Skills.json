@@ -1,0 +1,52 @@
+[
+  {
+    "id" : 1,
+    "icon": "../../assets/HomePage/SkillIcon/html.svg",
+    "text": "HTML"
+  },
+  {
+    "id" : 2,
+    "icon": "../../assets/HomePage/SkillIcon/css.svg",
+    "text": "CSS"
+  },
+  {
+    "id" : 3,
+    "icon": "../../assets/HomePage/SkillIcon/javascript.svg",
+    "text": "JAVASCRIPT"
+  },
+  {
+    "id" : 4,
+    "icon": "../../assets/HomePage/SkillIcon/bootstrap.svg",
+    "text": "BOOTSTRAP"
+  },
+  {
+    "id" : 5,
+    "icon": "../../assets/HomePage/SkillIcon/react.svg",
+    "text": "REACT"
+  },
+  {
+    "id" : 6,
+    "icon": "../../assets/HomePage/SkillIcon/figma.svg",
+    "text": "FIGMA"
+  },
+  {
+    "id" : 7,
+    "icon": "../../assets/HomePage/SkillIcon/Github.svg",
+    "text": "GITHUB"
+  },
+  {
+    "id" : 8,
+    "icon": "../../assets/HomePage/SkillIcon/python.svg",
+    "text": "PYTHON"
+  },
+  {
+    "id" : 9,
+    "icon": "../../assets/HomePage/SkillIcon/photoshop.svg",
+    "text": "PHOTOSHOP"
+  },
+  {
+    "id" : 10,
+    "icon": "../../assets/HomePage/SkillIcon/premierePro.svg",
+    "text": "PREMIEREPRO"
+  }
+]

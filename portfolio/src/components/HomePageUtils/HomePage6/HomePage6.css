@@ -1,0 +1,370 @@
+.HomePage6Container {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 890px;
+  width: 100%;
+}
+
+.HomePage6UpperBlock {
+  width: 100%;
+  height: 15%;
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.HomePage6UpperBlock h2 {
+  font-family: var(--font-fourth);
+  font-weight: var(--font-weight-semibold);
+  font-size: 50px;
+  line-height: 70px;
+  color: var(--color-primary);
+}
+
+.HomePage6UpperBlock p {
+  font-family: var(--font-primary);
+  font-size: var(--font-sze-fourth-title);
+  font-weight: var(--font-weight-normal);
+  line-height: 28px;
+  width: 40%;
+  text-align: center;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.HomePage6LowerBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid yellow; */
+  padding: 20px;
+  height: 85%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.HomePage6Lowerone,
+.HomePage6Lowerthird {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  /* gap: 30px; */
+  width: 100%;
+  height: 25%;
+  /* border: 1px solid red; */
+}
+
+.HomePage6Lowertwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 30%;
+
+  margin: 0 10px;
+}
+
+.HomePage6Lowerfourth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid rgb(0, 255, 85); */
+  width: 100%;
+  height: 20%;
+}
+
+.radioOptions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+  flex-direction: column;
+  /* background-color: var(--color-cards-color); */
+  border-radius: 12px;
+  border: 1px solid var(--color-secondary);
+  /* border: 1px solid rgb(0, 225, 255); */
+}
+
+.HomePage6Lowertitle {
+  margin: 0;
+  text-align: left;
+  font-family: var(--font-fourth);
+  font-size: var(--font-size-fourth-title);
+  font-weight: var(--font-weight-normal);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 50px;
+  height: 20%;
+  width: 100%;
+  color: var(--color-primary);
+}
+
+.HomePage6LowerOptionsub {
+  /* border: 1px solid blue; */
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.HomePage6LowerOptionsub label {
+  text-decoration: none;
+}
+
+.HomePage6LowerOptionsub input {
+  height: 28px;
+  width: 28px;
+  margin-right: 10px;
+  background-color: var(--color-background-dark);
+}
+
+.inputcheckbox {
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: var(--color-tag-color);
+  border: 1px solid var(--light-color-secondary);
+}
+
+.inputcheckbox:checked {
+  background: var(--color-tag-color);
+  border: 1px solid var(--light-color-secondary);
+}
+
+.inputcheckbox:checked::after {
+  content: url(../../../assets/HomePage/tickSvg.svg);
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.radioOptionSub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  flex-direction: row;
+  width: 100%;
+  height: 80%;
+}
+
+.radioOptionSub {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.HomePage6LowerOptionsub {
+  /* border: 1px solid blue; */
+  width: 45%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 8px;
+}
+
+.HomePage6LowerOptionsub label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.inputcheckbox {
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: var(--color-tag-color);
+  border: 1px solid var(--light-color-secondary);
+}
+
+.inputcheckbox:checked {
+  background: var(--color-tag-color);
+  border: 1px solid var(--light-color-secondary);
+}
+
+.inputcheckbox:checked::after {
+  content: url(../../../assets/HomePage/tickSvg.svg);
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.InputCardContainerCustom {
+  width: 90% !important;
+}
+
+.githubbtn1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+}
+
+.githubbtn1 img {
+  filter: brightness(100);
+}
+.light .githubbtn1 img {
+  filter: brightness(0);
+}
+
+.githubbtn1:hover {
+  cursor: pointer;
+}
+
+.light .githubbtn1:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.githubbtn1:hover p {
+  color: black;
+}
+
+.githubbtn1:hover img {
+  filter: brightness(0);
+}
+
+.light .githubbtn1:hover img {
+  filter: brightness(100);
+}
+
+.light .githubbtn1:hover p {
+  color: white;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .HomePage6Container {
+    width: 100vw;
+    /* border: 1px solid red; */
+    height: max-content;
+    margin: 0;
+  }
+  .HomePage6LowerBlock {
+    height: 100%;
+    gap: 15px;
+    /* border: 1px solid yellow; */
+  }
+
+  .HomePage6UpperBlock p {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .HomePage6Lowertitle {
+    padding-left: 30px;
+    margin-bottom: 2%;
+  }
+
+  .HomePage6Lowerone {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .radioOptionSub span {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HomePage6Container {
+    width: 100vw;
+    margin: 0;
+  }
+  .HomePage6UpperBlock {
+    /* border: 1px solid green; */
+    width: 90%;
+  }
+
+  .HomePage6UpperBlock h2 {
+    font-size: 30px;
+  }
+
+  .HomePage6UpperBlock p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .HomePage6Container {
+    width: 100vw;
+    height: auto;
+  }
+  .HomePage6LowerBlock {
+    height: 100%;
+    gap: 15px;
+  }
+
+  .HomePage6Lowerone {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 100%;
+    gap: 15px;
+  }
+  .HomePage6Lowertitle {
+    /* padding-left: 30px; */
+    margin: 4% 0;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding: 0;
+  }
+
+  .radioOptionSub {
+    /* border: 1px solid yellow; */
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .HomePage6LowerOptionsub {
+    width: 100%;
+  }
+
+  .radioOptionSub span {
+    font-size: 15px;
+    width: 100%;
+  }
+}

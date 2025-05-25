@@ -1,0 +1,109 @@
+.BlogCardsContainer{
+    /* border: 1px solid red; */
+    /* border-radius: 12px; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 250px;
+    background-color: var(--color-background-dark);
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+}
+
+.BlogCardsContainerLeft{
+    width: 450px;
+    /* border: 1px solid blue; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:12px ;
+}
+
+.BlogCardsContainerLeft img{
+    height: 100%;
+    object-fit: contain;
+}
+
+.BlogCardsContainerRight{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 15px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.BlogCardsContainerRightTop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 20%;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.BlogCardsContainerRightTop h2{
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-secondary-title);
+
+}
+
+.BlogCardsContainerRightMiddle p{
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-third-title);
+    color: var(--color-border);
+    line-height: 23px;
+}
+
+.BlogCardsContainerRightMiddle{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 60%;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.BlogCardsContainerRightBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 100%;
+
+}
+
+.BlogCardsContainerRightBottomDuration{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    /* border: 1px solid green; */
+    gap: 10px;
+    height: 100%;
+
+}
+
+.BlogCardsContainerRightBottomDuration img{
+    object-fit: cover;
+
+
+}
+
+.BlogCardsContainerRightBottomDuration p{
+    color: var(--color-border);
+}

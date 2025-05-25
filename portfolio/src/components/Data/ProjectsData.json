@@ -1,0 +1,40 @@
+[
+  {
+    "ProjectName": "JeevEco",
+    "Description": "Jeeveco is a zero-budget waste management app designed to encourage community-driven cleanliness. Built with React Native, the app enables users to report waste locations, track cleanup efforts, and take action towards a cleaner environment.",
+    "LiveUrl": "https://youtu.be/xMfwrhYrYd8?si=vgIB0bV79o2N8QTh",
+    "ProjectImg": "https://i.ibb.co/TM9Tzb7L/Screenshot-2025-03-24-203945.png"
+  },
+  {
+    "ProjectName": "TruthLens",
+    "Description": "TruthLens is an AI-powered fake news detection platform designed to combat misinformation. It leverages the Gemini AI API and a machine learning backend to analyze news articles and verify their credibility.",
+    "LiveUrl": "https://truthlensio.netlify.app/",
+    "ProjectImg": "https://i.ibb.co/6RpfzhLB/Untitled-design-1.png"
+  },
+  {
+    "ProjectName": "Gravity",
+    "Description": "Gravity is a comprehensive academic resource platform designed to help students access study materials in a structured and efficient way.",
+    "LiveUrl": "https://prasxor-gravity.netlify.app/",
+    "ProjectImg": "https://i.ibb.co/m56mjmKB/Screenshot-2025-03-10-161228.png"
+  },
+  {
+    "ProjectName": "Note App",
+    "Description": "This is a Note-taking application where users can create, save, and delete notes. The notes are saved in the browser's local storage, ensuring they persist even after the page is refreshed.",
+    "LiveUrl": "https://prasxor-noteapp.netlify.app/",
+    "ProjectImg": "https://i.ibb.co/35cBq3zr/Workflows.png"
+  },
+
+  {
+    "ProjectName": "Acme Degree College",
+    "Description": "I created our college website using HTML, CSS, and JavaScript, featuring a clean design, smooth navigation, and essential information.",
+    "LiveUrl": "https://prasxor.github.io/Acme-website/index.html",
+    "ProjectImg": "https://i.ibb.co/SWtMvtx/Workflows-1.png"
+  },
+  {
+    "ProjectName": "Ezio - E-commerce Website",
+    "Description": "Ezio is a basic e-commerce website showcasing essential frontend features using HTML, CSS, and JavaScript, serving as a foundation for a full store.",
+    "LiveUrl": "https://jade-granita-dbd17c.netlify.app/",
+    "ProjectImg": "https://i.ibb.co/HL1WFDnn/Workflows-2.png"
+  }
+]
+
